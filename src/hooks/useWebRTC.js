@@ -104,5 +104,6 @@ export default function useWebRTC(roomID) {
         peerMediaElements.current[id] = node;
     }, []);
 
+    
     return {clients, provideMediaRef};
 }
